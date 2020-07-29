@@ -1,0 +1,149 @@
+html * {
+
+margin: 20px 20px 20px 20px;
+
+}
+
+body {
+        
+        background-color: #79ad75;
+       text-align: center;
+}
+
+
+#logo {
+        width: 350px;
+        height: 50%;
+        padding-top: 10px;
+        
+
+}
+ @font-face {
+        font-family: "font";
+         src: url("font/Pokemon-Hollow.ttf");
+ }
+ @font-face {
+        font-family: "font2";
+        src: url("font/Pokemon-Solid.ttf");
+
+ }
+
+.titulo {
+
+        font-family:"font2";
+        font-size: 60px;
+        color-adjust: #3466af;
+        
+}
+#menu ul {
+
+        padding:0px;
+        margin:0px;
+        background-color: #3F9490;
+        list-style: none;
+        border: 5px solid #323D48;
+}
+#menu ul li {
+
+        display: inline;
+}
+
+#menu ul li a {
+        display: inline-block;
+        padding: 0px 20px;
+        font-family:"font2";
+        font-size: 28px;
+        color: #633424;
+       
+}
+p {
+        margin:0px;
+}
+   
+#texto1 {
+
+        float: left;
+        margin: 0px auto 0 auto;
+        padding: 10px;
+        font-family: "font2";
+        font-size: 40px;
+        color: black;
+        line-height: 1.5cm;
+        text-indent: 5px;  
+        letter-spacing: 1px;
+}
+
+.titulo2 {
+        
+        font-family: "font";
+        font-size: 40px;
+        font-weight: bold;
+}
+main {
+        margin: 1px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        height: 900px;
+        background-color: #323D48;
+
+}
+section {
+        margin: 0px auto 0px auto;
+        height: 880px;
+        width: 400px;
+        float: right;
+        background-color: #E8955A;
+        margin-right: 10px;
+
+}
+#contents  {  	
+	float: left;  	
+	width: 440px;  	
+	background: #F4B185;  	
+	margin: 20px;  
+	} 
+
+#container {
+        
+        margin:20px auto 20 auto;
+        width: 840px;
+        height: 400px;
+        background-color: blanchedalmond;
+        align-self: justify;
+
+}       
+
+.pokimage img {
+        margin: 10px;
+        padding: 15px;
+        width: 260px;
+        height: 370px;
+        margin-top: 10px;
+
+        
+}
+
+#fotoconteudo {
+        margin:20px auto 20 auto;
+        width: 840px;
+        height: 450px;
+        background-color: #badbb2;
+        align-content: center;
+}
+
+#fotoconteudo img{
+       
+        width: 640px;
+        height: 400px;
+        align-content: space-between;
+
+}
+
+footer {
+        margin: 0px auto 0px auto;
+        width: 99,5%;
+        height: 40px;
+        background-color: #F1D5AF;
+        margin: 10px;
+        
+}
